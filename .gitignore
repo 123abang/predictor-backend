@@ -1,2 +1,51 @@
-.vercel
-.env*.local
+# ─── Python ────────────────────────────────────────────────────────────────
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Test / coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+.hypothesis/
+
+# ─── Node / JavaScript ────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ─── Vercel ───────────────────────────────────────────────────────────────
+.vercel/
+
+# ─── IDEs / Editors / OS ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ─── Logs & Misc ─────────────────────────────────────────────────────────
+logs/
+*.log
